@@ -47,7 +47,7 @@ body {
   margin-bottom: 0;
 }
 
-.center .inputbox [type="button"] {
+.center .inputbox [type="submit"] {
   width: 50%;
   background: dodgerblue;
   color: #fff;
@@ -55,3 +55,6 @@ body {
   cursor: pointer;
 }
 
+.center .inputbox [type="submit"]:hover{
+  background: rgb(9, 73, 137);
+}
