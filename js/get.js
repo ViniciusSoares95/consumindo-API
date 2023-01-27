@@ -26,14 +26,8 @@ if(ul){
                             </li>
                         </ul>
                         <div class="pull-right btn-group-sm">
-                            <a href="#" class="btn btn-primary a-btn-slide-text">
-                                <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
-                                <span><strong>Editar</strong></span>            
-                            </a>
-                            <a href="#" class="btn btn-primary a-btn-slide-text">
-                                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-                                 <span><strong>Excluir</strong></span>            
-                             </a>
+                        <button type="button" class="btn btn-primary">Editar</button>
+                            <button type="button" class="btn btn-primary" onclick="deleteItem(${intem.id})">Excluir</button>
                         </div>
                     </div>   
                 </div>
@@ -44,4 +38,5 @@ if(ul){
         .catch(erro => { //se ouver erro
             console.log(erro);
         })
+        
 }
