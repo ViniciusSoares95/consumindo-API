@@ -15,8 +15,8 @@ if(ul){
                         <ul class="list-unstyled m-t-md">
                             <li>
                                 <span class="fa fa-envelope m-r-xs"></span>
-                                <label>Instagram:</label>
-                                ${intem.instagram} 
+                                <label>Email:</label>
+                                ${intem.email} 
                             </li>
       
                             <li>
@@ -24,6 +24,11 @@ if(ul){
                                 <label>Fone:</label>
                                  ${intem.fone} 
                             </li>
+                            <li>
+                            <span class="fa fa-phone m-r-xs"></span>
+                            <label>Descrição:</label>
+                             ${intem.descricao} 
+                        </li>
                         </ul>
                         <div class="pull-right btn-group-sm">
                         <button type="button" class="btn btn-primary">Editar</button>

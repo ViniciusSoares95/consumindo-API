@@ -1,11 +1,6 @@
 body{margin-top:20px;}
 
-.containerView{
-  width: 100%;
-  height: auto;
-  border: 1px solid;
-  display: flex;
-}
+
 
 .p-xl {
   padding: 40px;

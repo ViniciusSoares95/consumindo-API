@@ -6,8 +6,9 @@ if (form) { //verifica se existe
 
         const dados = {
             nome: document.getElementById('nome').value,
-            instagram: document.getElementById('instagram').value,
+            instagram: document.getElementById('email').value,
             fone: document.getElementById('fone').value,
+            descricao: document.getElementById('descricao').value,
         }
 
         fetch(path, {
